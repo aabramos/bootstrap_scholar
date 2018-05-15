@@ -26,6 +26,13 @@ function bootstrap_scholar_form_system_theme_settings_alter(&$form, &$form_state
         '#collapsible' => TRUE,
         '#collapsed' => TRUE,
     );
+	
+    $form['mtt_settings']['tabs']['basic_settings']['blank_front_page_display'] = array(
+        '#type' => 'checkbox',
+        '#title' => t('Blank Front Page'),
+        '#description'   => t('Enable the checkbox to show a blank front page without the welcome message.'),
+        '#default_value' => theme_get_setting('blank_front_page_display','bootstrap_scholar'),
+    );
 
     $form['mtt_settings']['tabs']['basic_settings']['breadcrumb_display'] = array(
         '#type' => 'checkbox',
