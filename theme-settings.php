@@ -69,19 +69,5 @@ function bootstrap_scholar_form_system_theme_settings_alter(&$form, &$form_state
         '#empty_option' => t('Disabled'),
         '#empty_value' => NULL,
     );
-
-    $form['mtt_settings']['tabs']['ie8_support'] = array(
-        '#type' => 'fieldset',
-        '#title' => t('IE8 support'),
-        '#collapsible' => TRUE,
-        '#collapsed' => FALSE,
-    );
-
-    $form['mtt_settings']['tabs']['ie8_support']['responsive_respond'] = array(
-        '#type' => 'checkbox',
-        '#title' => t('Add Respond.js [<em>bootstrap-scholar/js/respond.min.js</em>] JavaScript to add basic CSS3 media query support to IE 6-8.'),
-        '#default_value' => theme_get_setting('responsive_respond','bootstrap_scholar'),
-        '#description'   => t('IE 6-8 require a JavaScript polyfill solution to add basic support of CSS3 media queries. Note that you should enable <strong>Aggregate and compress CSS files</strong> through <em>/admin/config/development/performance</em>.'),
-    );
     
 }

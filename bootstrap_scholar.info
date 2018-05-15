@@ -31,5 +31,4 @@ regions[page_bottom] = Page bottom
 
 settings[breadcrumb_display]= 1
 settings[scrolltop_display]= 1
-settings[responsive_respond]= 0
 settings[bootstrap_css_cdn]= 3.2.0
