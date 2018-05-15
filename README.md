@@ -1,0 +1,1 @@
+Drupal Bootstrap Theme for School websites.
