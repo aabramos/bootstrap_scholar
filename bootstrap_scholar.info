@@ -1,10 +1,11 @@
 name = Bootstrap Scholar
 description = A responsive theme for Scholar websites.
 core = 7.x
+base theme = bootstrap_business
 
 stylesheets[all][] = css/style.css
 stylesheets[all][] = color/colors.css
-stylesheets[all][] = css/local.css
+stylesheets[all][] = css/custom.css
 
 regions[pre_header_first] = Pre Header First
 regions[pre_header_second] = Pre Header Second

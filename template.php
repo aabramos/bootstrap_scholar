@@ -122,7 +122,7 @@ function bootstrap_scholar_preprocess_page(&$vars) {
 	if (drupal_is_front_page() && theme_get_setting('blank_front_page_display')) {
 		unset($vars['page']['content']['system_main']['default_message']);
 		drupal_set_title(''); //removes welcome message (page title)
-	}	
+	}
 	
 	/**
 	 * Add Javascript
