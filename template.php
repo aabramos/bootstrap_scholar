@@ -117,6 +117,14 @@ function bootstrap_scholar_preprocess_page(&$vars) {
 	}
 
 	/**
+	 * Removes welcome message in the front page and creates a blank page.
+	 */
+	if (drupal_is_front_page() && theme_get_setting('blank_front_page_display')) {
+		unset($vars['page']['content']['system_main']['default_message']);
+		drupal_set_title(''); //removes welcome message (page title)
+	}	
+	
+	/**
 	 * Add Javascript
 	 */
 	if($vars['page']['pre_header_first'] || $vars['page']['pre_header_second'] || $vars['page']['pre_header_third']) { 
