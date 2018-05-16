@@ -1,7 +1,6 @@
 name = Bootstrap Scholar
-description = A responsive theme for Scholar websites.
+description = A responsive theme for Scholar websites. Based on Bootstrap 3 framework - http://getbootstrap.com/ - and Bootstrap Business Theme - https://www.drupal.org/project/bootstrap_business
 core = 7.x
-base theme = bootstrap_business
 
 stylesheets[all][] = css/style.css
 stylesheets[all][] = color/colors.css

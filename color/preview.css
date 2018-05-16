@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,greek);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,greek);
 
 /* ---------- Color form ----------- */
 #color_scheme_form #palette { margin-bottom: 35px; }
@@ -11,7 +11,7 @@
 }
 
 /* ---------- Preview Styles ----------- */
-#preview { color: #444; font: normal 90%/1.538em 'Open Sans', sans-serif; }
+#preview { color: #444; font: normal 90%/1.538em 'Nunito', sans-serif; }
 
 #preview-pre-header { top: 0; left: 0; width: 100%; z-index: 499; position: absolute; background-color: #333; }
 
